@@ -8,7 +8,7 @@ The Bellman equation provides a recursive relationship for estimating the value 
 
 ## Problem Setup
 
-* Grid Size * : 4x4 (16 states)
+*Grid Size* : 4x4 (16 states)
 
 * Actions * : Up, Down, Left, Right (equal probability)
 

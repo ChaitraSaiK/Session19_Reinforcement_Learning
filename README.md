@@ -1,5 +1,8 @@
 # Bellman Equation for Reinforcement Learning
 
+![Bellman Equation](https://img.shields.io/badge/Bellman-Equation-blue)
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement-Learning-green)
+
 ## Overview
 
 This project implements Value Iteration for solving a 4x4 GridWorld problem using Dynamic Programming. The agent starts at the top-left corner (state 0) and aims to reach the bottom-right corner (state 15). The algorithm iteratively updates state values using the Bellman equation until convergence.
@@ -24,11 +27,11 @@ The Bellman equation provides a recursive relationship for estimating the value 
 
 **Initialization**:
 
-Set grid size and rewards
+- Set grid size and rewards
 
-Initialize the value function V(s) = 0 for all states
+- Initialize the value function V(s) = 0 for all states
 
-Define possible actions
+- Define possible actions
 
 **Value Iteration**:
 

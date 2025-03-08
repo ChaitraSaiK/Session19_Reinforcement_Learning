@@ -8,21 +8,21 @@ The Bellman equation provides a recursive relationship for estimating the value 
 
 ## Problem Setup
 
-*Grid Size* : 4x4 (16 states)
+**Grid Size**: 4x4 (16 states)
 
-* Actions * : Up, Down, Left, Right (equal probability)
+**Actions**: Up, Down, Left, Right (equal probability)
 
-* Rewards * : -1 per move, 0 for reaching the terminal state
+**Rewards**: -1 per move, 0 for reaching the terminal state
 
-* Transition Probability * : Equal probability for all valid moves
+**Transition Probability**: Equal probability for all valid moves
 
-* Discount Factor (γ) * : 1.0 (no discounting)
+**Discount Factor (γ)**: 1.0 (no discounting)
 
-* Convergence Threshold (θ) * : 1e-4 (stopping criterion)
+**Convergence Threshold (θ)**: 1e-4 (stopping criterion)
 
 ## Implementation Details
 
-* Initialization * :
+**Initialization**:
 
 Set grid size and rewards
 
@@ -30,7 +30,7 @@ Initialize the value function V(s) = 0 for all states
 
 Define possible actions
 
-* Value Iteration * :
+**Value Iteration**:
 
 - Iteratively update state values using the Bellman equation:
   
@@ -40,12 +40,11 @@ Define possible actions
 
 - Stop when the maximum change in state values is less than θ.
 
-* Output * :
+**Output**:
 
 Print the final state value function after convergence.
 
-Example Output
-
+Example Output:
 
     [[-59.42 -57.42 -54.28 -51.71]
     [-57.42 -54.57 -49.71 -45.14]
@@ -53,8 +52,7 @@ Example Output
     [-51.71 -45.14 -30.00   0.00]]
 
 
-* Dependencies * :
+**Dependencies**:
 
 - Python 3
-
 - NumPy
